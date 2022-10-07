@@ -29,10 +29,10 @@ The image above shows how you could play directly on embossed cryptogram puzzles
 - [Acknowledgments](#acknowledgments)
 
 ## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
-- The cryptogram puzzles are generated on two pages, the first containing the encrypted text within an embossed box. <b>Each character of a word is separated by an empty braille cell and each word is delimited by a forward slash ("⠸⠌") braille character in the PEF files or "st" symbol ("⠌") in the BRF files</b>. The second page is comprised of the cipher, also in an embossed box, followed by the solution. 
+- The cryptogram puzzles are generated on two pages, the first of which contains the encrypted text within an embossed box. <b>Each character of a word is separated by an empty braille cell, and each word is delimited by a forward slash ("⠸⠌") braille symbol in the PEF files or "st" character ("⠌") in the BRF files</b>. The second page is comprised of the cipher, also in an embossed box, followed by the solution. 
 - Users can choose to <b>enter their own text instead of using the random quotes</b> that Crypto-Braille outputs by default. If that is the case, then the text should be <b>at least eighty characters in length (including spaces)</b> in order to provide the player with enough words to solve the cryptogram. The maximum length for the text is determined by the number of spaces present in it and the specified number of columns per line.
-- The number of columns per line and rows per page are set by default to 30 and 25, respectively. These parameters may be tuned by the user according to the braille embosser's specifications. However, in order to have a more convenient and smaller playing area when laying both pages side by side as depicted in the image above, <b>printing in portrait mode either on A4 or letter paper is recommended</b>.
-- The random quotes selected from the "Quotable" database are chosen in such a way that their encrypted version will properly fit within a page. As such, the number of different quotes that can be converted into cryptograms using distinct ciphers at any one time will depend on the specified number of rows and columns, with longer quotes being included with wider and more numerous rows. Even so, it should be possible to generate over 100 different encrypted quotes with different ciphers in one go, with margins set for printing on A4 paper.
+- The number of columns per line and rows per page are set by default to 30 and 25, respectively. These parameters may be tuned by the user according to the braille embosser's specifications. However, in order to have a more convenient and smaller playing area when laying both pages side by side, as depicted in the image above, <b>printing in portrait mode on either A4 or letter paper is recommended</b>.
+- The random quotes selected from the "Quotable" database are chosen in such a way that their encrypted version will properly fit within a page. As such, the number of different quotes that can be converted into cryptograms using distinct ciphers at any one time will depend on the specified number of rows and columns, with longer quotes being included with wider and more numerous rows. Even so, it should be possible to  simultaneously generate over 100 individual encrypted quotes (each separate quote having a different cipher) with the margins set for printing on A4 paper.
 
 
 
@@ -67,7 +67,7 @@ To run the "crypto-braille.py" Python code, open a windowed command line in your
 python3 crypto-braille.py
 ```
 
-Furthermore, you can have Crypto-Braille generate multiple braille cryptogram files (each containing one cryptogram and the cipher and solution on the following page) which are numbered for easy reference, by typing the number as a separate argument when running the Python code. For example, to generate 50 cryptograms with the default number of columns and rows of 30 and 25, respectively, you would enter the following in command line:
+Furthermore, you can have Crypto-Braille generate multiple braille cryptogram files (each containing one cryptogram and the cipher and solution on the following page) which are numbered for easy reference, by typing the desired number of cryptograms as a separate argument when running the Python code. For example, to generate 50 cryptograms with the default number of columns and rows of 30 and 25, respectively, you would enter the following in command line:
 ```              
 python3 crypto-braille.py 50
 ```
@@ -92,12 +92,12 @@ Should you like to submit your own text for encryption instead of a random quote
 python3 crypto-braille.py "My text (at least eighty characters in length)".
 ```
 
-Finally, any number of the arguments above can be combined in any order when calling the Python code. For example, should you like to generate 50 cryptograms with a number of columns and rows of 40 and 25, respectively, and having the "a" and "e" hints included in the ciphers, you would enter the following in command line:
+Finally, any number of the abovementioned arguments can be combined in any order when calling the Python code. For example, should you like to generate 50 cryptograms with a number of columns and rows of 40 and 25, respectively, and having the "a" and "e" hints included in the ciphers, you would enter the following in command line:
 ```
 python3 crypto-braille.py 50 col40 row25 a e
 ```
 
- <br><b>And that's it!</b> You're now ready to solve as many braille . cryptograms as you like! If you are close to someone who is visually impaired and would like to help them find an accessible version of cryptogram puzzles, or maybe if you are only sprucing up your braille reading skills in preparation for the Zombie Apocalypse (lol) then this app is for you! P.S. be sure to also check out my other github page e-Braille Tales (https://github.com/LPBeaulieu/Braille-OCR-e-Braille-Tales) for braille OCR!🎉📖
+ <br><b>And that's it!</b> You're now ready to solve as many braille cryptograms as you like! If you are close to someone who is visually impaired and would like to help them find an accessible version of cryptogram puzzles, or maybe if you are only sprucing up your braille reading skills in preparation for the Zombie Apocalypse (lol) then this app is for you! P.S. be sure to also check out my other github page <b>e-Braille Tales</b> (https://github.com/LPBeaulieu/Braille-OCR-e-Braille-Tales) for braille OCR!🎉📖
   
   
 ## ✍️ Authors <a name = "author"></a>
