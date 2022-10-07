@@ -51,7 +51,7 @@ Extract the zipped folder into your desired location, and the "Braille-Cryptogra
 
 <b>Step 2</b>- In order to set up <b>Crypto-Braille</b> on your computer, access your working folder in the file explorer, and click on the folder’s arrow in the window’s header. Then, simply click on "open in terminal" in order to open a windowed command line, with a correct path to your working folder, as shown in Figure 3.
 
-![Open in Terminal Screenshot](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Open%20in%20Terminal%20Screenshot.jpg)<hr>
+![Open in Terminal Screenshot](https://github.com/LPBeaulieu/Braille-Cryptograms-Crypto-Braille/blob/main/Open%20in%20Terminal%20Illustration.svg)<hr>
 <b>Figure 3</b>: The image above shows the steps to take in order to open the command line in your working folder.<br><br>
 
  Copy and paste (or write down) the following in the command line to install <b>alive-Progress</b> (Python module for a progress bar displayed in command line): 
