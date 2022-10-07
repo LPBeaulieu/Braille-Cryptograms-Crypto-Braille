@@ -87,7 +87,7 @@ Should you want to have the identity of all 26 encrypted letters revealed to you
 python3 crypto-braille.py hints26
 ```
 
-Should you like to submit your own text for encryption instead of a random quote, simply enter the text in quotes as a additional argument. Please note that the text should consist of at least eighty characters to enable players to readily decipher the code. Also, the text should only be made up of letters and standard punctuation marks. Only one cryptogram can be generated at a time when entering your own text, as in the example below:
+Should you like to submit your own text for encryption instead of a random quote, simply enter the text in quotes as a additional argument. Please note that the text should consist of at least eighty characters to enable players to readily decipher the code. Also, the text should only be made up of letters and standard punctuation marks. Only one cryptogram can be generated at a time when entering your own text, as shown in the example below:
 ```              
 python3 crypto-braille.py "My text (at least eighty characters in length)".
 ```
