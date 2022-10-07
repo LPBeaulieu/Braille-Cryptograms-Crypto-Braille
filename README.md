@@ -77,7 +77,7 @@ In order to specify a different number of rows or columns, simply enter the desi
 python3 crypto-braille.py col40 row25
 ```
 
-Should you want to be given some hints in the form of cipher values for given letters, simply enter the requested letters as additional arguments. For example, should you like to know what the encrypted letters standing for "a" and "e" are, you would type the following:
+Should you want to be given some hints in the form of cipher values for certain letters, simply enter the requested letters as additional arguments. For example, should you like to know what the encrypted letters standing for "a" and "e" are, you would type the following:
 ```              
 python3 crypto-braille.py a e
 ```
