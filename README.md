@@ -82,12 +82,12 @@ Should you want to be given some hints in the form of cipher values for certain 
 python3 crypto-braille.py a e
 ```
 
-Should you want to have the identity of all 26 encrypted letters revealed to you in the cipher, simply add "hints26" as an supplemental argument when calling the Python code:
+Should you want to have the identity of all 26 encrypted letters revealed to you in the cipher, simply add "hints26" as a supplemental argument when calling the Python code:
 ```              
 python3 crypto-braille.py hints26
 ```
 
-Should you like to submit your own text for encryption instead of a random quote, simply enter the text in quotes as a additional argument. Please note that the text should consist of at least eighty characters to enable players to readily decipher the code. Also, the text should only be made up of letters and standard punctuation marks. Only one cryptogram can be generated at a time when entering your own text, as shown in the example below:
+Should you like to submit your own text for encryption instead of a random quote, simply enter the text in quotes as an additional argument. Please note that the text should consist of at least eighty characters to enable players to readily decipher the code. Also, the text should only be made up of letters and standard punctuation marks. Only one cryptogram can be generated at a time when entering your own text, as shown in the example below:
 ```              
 python3 crypto-braille.py "My text (at least eighty characters in length)".
 ```
