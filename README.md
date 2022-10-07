@@ -67,7 +67,7 @@ To run the "crypto-braille.py" Python code, open a windowed command line in your
 python3 crypto-braille.py
 ```
 
-You can have Crypto-Braille generate multiple braille cryptogram files (each containing one cryptogram and the cipher and solution on the following page) which are numbered for easy reference, by typing the desired number of cryptograms as a separate argument when running the Python code. For example, to generate 50 cryptograms with the default number of columns and rows of 30 and 25, respectively, you would enter the following in command line:
+You can have Crypto-Braille generate multiple braille cryptogram files (each containing one cryptogram and the cipher and solution on the following page), which are numbered for easy reference, by typing the desired number of cryptograms as a separate argument when running the Python code. For example, to generate 50 cryptograms with the default number of columns and rows of 30 and 25, respectively, you would enter the following in command line:
 ```              
 python3 crypto-braille.py 50
 ```
