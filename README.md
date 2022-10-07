@@ -17,7 +17,7 @@ This application generates virtually unlimited famous quote cryptograms in PEF a
 
 <p align="left"> <b>Crypto-Braille</b> is an app that generates braille cryptograms based on famous quotes, in Portable Embosser Format (PEF) and Braille Ready Format (BRF). It also allows you to enter some text to generate your very own cryptograms!
 
-The image above shows how you could play directly on embossed cryptogram puzzles, with the help of braille-labelled magnetic push pins. I recommend laying a placemat over the metallic magnetic board in order to decrease the strength of the neodymium-based magnets, which could otherwise crush the braille dots. Also, the base diameter of the magnets should be at most 15 mm (or 0.6 in) in order to properly fit within the designated spaces of the embossed cryptogram and cipher. Even then, the magnets need to be staggered in the cipher box as shown in the image above, so that all of the letters can have their corresponding encrypted magnetic label in place within the cipher box. As I don't have access to a braille embosser, I typed my sudoku on my Perkins Brailler, but it should print very nicely in portrait mode on 8 1/2 by 11" braille or cardstock paper.</p> 
+The image above shows how you could play directly on embossed cryptogram puzzles, with the help of braille-labelled magnetic push pins. I recommend laying a placemat over the metallic magnetic board in order to decrease the strength of the neodymium-based magnets, which could otherwise crush the braille dots. Also, the base diameter of the magnets should be at most 15 mm (or 0.6 in) in order to properly fit within the designated spaces of the embossed cryptogram and cipher. Even then, the magnets need to be staggered in the cipher box as shown in the image above, so that all of the letters can have their corresponding encrypted magnetic label in place within the cipher box. As I don't have access to a braille embosser, I typed my cryptogram on my Perkins Brailler, but it should print very nicely in portrait mode on 8 1/2 by 11" braille or cardstock paper.</p> 
 <p>As a sidenote, the quote in the image above reads "<i>It requires wisdom to understand wisdom: the music is nothing if the audience is deaf. — Walter Lippmann</i>".<br><br>
 </p>
 
@@ -67,7 +67,7 @@ To run the "crypto-braille.py" Python code, open a windowed command line in your
 python3 crypto-braille.py
 ```
 
-Furthermore, you can have Brailloku generate multiple braille sudoku files (each containing one cryptogram and the cipher and solution on the following page) which are numbered for easy reference, by typing the number as a separate argument when running the Python code. For example, to generate 50 cryptograms with the default number of columns and rows of 30 and 25, respectively, you would enter the following in command line:
+Furthermore, you can have Crypto-Braille generate multiple braille cryptogram files (each containing one cryptogram and the cipher and solution on the following page) which are numbered for easy reference, by typing the number as a separate argument when running the Python code. For example, to generate 50 cryptograms with the default number of columns and rows of 30 and 25, respectively, you would enter the following in command line:
 ```              
 python3 crypto-braille.py 50
 ```
@@ -97,7 +97,7 @@ Finally, any number of the arguments above can be combined in any order when cal
 python3 crypto-braille.py 50 col40 row25 a e
 ```
 
- <br><b>And that's it!</b> You're now ready to solve as many braille sudoku cryptograms as you like! If you are close to someone who is visually impaired and would like to help them find an accessible version of cryptogram puzzles, or maybe if you are only sprucing up your braille reading skills in preparation for the Zombie Apocalypse (lol) then this app is for you! P.S. be sure to also check out my other github page e-Braille Tales (https://github.com/LPBeaulieu/Braille-OCR-e-Braille-Tales) for braille OCR!🎉📖
+ <br><b>And that's it!</b> You're now ready to solve as many braille . cryptograms as you like! If you are close to someone who is visually impaired and would like to help them find an accessible version of cryptogram puzzles, or maybe if you are only sprucing up your braille reading skills in preparation for the Zombie Apocalypse (lol) then this app is for you! P.S. be sure to also check out my other github page e-Braille Tales (https://github.com/LPBeaulieu/Braille-OCR-e-Braille-Tales) for braille OCR!🎉📖
   
   
 ## ✍️ Authors <a name = "author"></a>
