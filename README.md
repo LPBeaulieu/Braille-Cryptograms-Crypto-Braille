@@ -49,7 +49,7 @@ Extract the zipped folder into your desired location, and the "Braille-Cryptogra
 ![Download Code Screenshot](https://github.com/LPBeaulieu/Braille-Cryptograms-Crypto-Braille/blob/main/Download%20Folder%20Illustration.svg)<hr>
 <b>Figure 1</b>:The image above shows the steps to take in order to download the compressed folder containing the code.<br><br>
 
-<b>Step 1</b>- In order to set up <b>Crypto-Braille</b> on your computer, access your working folder in the file explorer, and click on the folder’s arrow in the window’s header. Then, simply click on "open in terminal" in order to open a windowed command line, with a correct path to your working folder, as shown in Figure 2.
+<b>Step 2</b>- In order to set up <b>Crypto-Braille</b> on your computer, access your working folder in the file explorer, and click on the folder’s arrow in the window’s header. Then, simply click on "open in terminal" in order to open a windowed command line, with a correct path to your working folder, as shown in Figure 2.
 
 ![Open in Terminal Screenshot](https://github.com/LPBeaulieu/Braille-Cryptograms-Crypto-Braille/blob/main/Open%20in%20Terminal%20Illustration.svg)<hr>
 <b>Figure 2</b>: The image above shows the steps to take in order to open the command line in your working folder.<br><br>
