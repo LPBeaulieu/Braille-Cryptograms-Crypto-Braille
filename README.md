@@ -46,7 +46,7 @@ The steps below are given for Linux operating system (OS) environments, as I wor
 <b>Step 1</b>- Head over to the main <b>Crypto-Braille</b> github page, click on the <b>Code</b> button and then click on the <b>Download zip</b> button.
 Extract the zipped folder into your desired location, and the "Braille-Cryptograms-Crypto-Braille-main" folder will now serve as your working folder, which contains the Python code you will later run in order to generate cryptogram puzzles.   
 
-![Download Code Screenshot](https://github.com/LPBeaulieu/Braille-Sudoku-Brailloku/blob/main/Download%20Code%20Screenshot.jpg)<hr>
+![Download Code Screenshot](https://github.com/LPBeaulieu/Braille-Cryptograms-Crypto-Braille/blob/main/Download%20Folder%20Illustration.svg)<hr>
 <b>Figure 2</b>:The image above shows the steps to take in order to download the compressed folder containing the code.<br><br>
 
 <b>Step 2</b>- In order to set up <b>Crypto-Braille</b> on your computer, access your working folder in the file explorer, and click on the folder’s arrow in the window’s header. Then, simply click on "open in terminal" in order to open a windowed command line, with a correct path to your working folder, as shown in Figure 3.
