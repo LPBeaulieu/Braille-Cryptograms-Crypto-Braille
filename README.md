@@ -39,7 +39,7 @@ The image above shows how you could play directly on embossed cryptogram puzzles
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
 The following instructions will be provided in great detail, as they are intended for a broad audience and will
-allow to run a copy of <b>Crypto-Braille</b> on a local computer. Here is a link to an instructional video explaining the steps described below: **The link will be added once the Youtube video is posted.**
+allow to run a copy of <b>Crypto-Braille</b> on a local computer. Here is a link to an instructional video explaining the steps described below: https://www.youtube.com/watch?v=fxxDW9AeWSA.
 
 The steps below are given for Linux operating system (OS) environments, as I work with Linux on my computer, but the code should run fine on other operating systems (windows, macOS) as well. Please send me an e-mail to the address below should you encounter any issues and I will try to further improve my code.
 
