@@ -14,9 +14,9 @@ cwd = os.getcwd()
 #It was originally built as part of a [FreeCodeCamp](https://www.freecodecamp.org/)
 #project. The database includes over 2000 quotes by 900 authors." A subset of 500
 #quotes are made available to the public for use according to the terms of a MIT license.
-with open(cwd + '/quotable-master/data/sample/quotes.json', encoding="utf-8") as q:
+with open(os.path.join(cwd, "quotable-master", "data", "sample", "quotes.json"), encoding="utf-8") as q:
     quotes = json.load(q)
-    with open(cwd + '/quotable-master/data/sample/authors.json', encoding="utf-8") as a:
+    with open(os.path.join(cwd, "quotable-master", "data", "sample", "authors.json"), encoding="utf-8") as a:
         authors = json.load(a)
 
     #Populating the list "quotes_and_authors" with lists containing the
